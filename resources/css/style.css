@@ -52,22 +52,19 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    background-color: white;
-    color: var(--color-background);
-    border-width: 2px;
-    border-radius: 0.25rem;
-    border-color: var(--color-background);
-    border-style: solid;
+    background-color: var(--color-background-variant);
+    color: var(--color-on-background);
+    border-width: 0;
     font-family: 'League Spartan', sans-serif;
     cursor: pointer;
     transition: color .2s ease-in-out;
     transition: background-color .2s ease-in-out;
+    height: 100%;
 }
 
 #button:hover {
-    background-color: var(--color-background-variant);
+    background-color: var(--color-surface-variant);
     color: var(--color-on-background);
-    border-color: white;
 }
 
 #button:active {
