@@ -21,6 +21,18 @@
     }
 }
 
+@media only screen and (max-width: 370px) {
+    #heading h1 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 309px) {
+    #heading h1 {
+        font-size: 12px;
+    }
+}
+
 body {
     margin: 0;
     overflow: hidden;
@@ -82,8 +94,8 @@ body {
     color: var(--color-on-background);
 }
 
-#button:active {
-    border-style: solid;
+#button:focus {
+    background-color: var(--color-background-variant);
 }
 
 footer {
