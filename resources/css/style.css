@@ -79,7 +79,7 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    background-color: var(--color-background-variant);
+    background-color: var(--color-surface-variant);
     color: var(--color-on-background);
     border-width: 0;
     font-family: 'League Spartan', sans-serif;
@@ -89,13 +89,8 @@ body {
     height: 100%;
 }
 
-#button:hover {
-    background-color: var(--color-surface-variant);
-    color: var(--color-on-background);
-}
-
-#button:focus {
-    background-color: var(--color-background-variant);
+#button:active {
+    background-color: var(--color-outline);
 }
 
 footer {
