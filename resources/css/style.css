@@ -9,30 +9,6 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 656px) {
-    #heading h1 {
-        font-size: 24px;
-    }
-}
-
-@media only screen and (max-width: 492px) {
-    #heading h1 {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (max-width: 370px) {
-    #heading h1 {
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width: 309px) {
-    #heading h1 {
-        font-size: 12px;
-    }
-}
-
 body {
     margin: 0;
     overflow: hidden;
@@ -177,4 +153,44 @@ p {
     font-size: 16px;
     font-weight: 400;
     font-family: 'League Spartan', sans-serif;
+}
+
+@media only screen and (max-width: 656px) {
+    #heading h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 492px) {
+    #heading h1 {
+        font-size: 18px;
+    }
+
+    .quote {
+        font-size: calc(13px + 0.5vw);
+    }
+
+    .author {
+        font-size: calc(11px + 0.4vw);
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    #heading h1 {
+        font-size: 15px;
+    }
+
+    .quote {
+        font-size: calc(11px + 0.5vw);
+    }
+
+    .author {
+        font-size: calc(9px + 0.4vw);
+    }
+}
+
+@media only screen and (max-width: 309px) {
+    #heading h1 {
+        font-size: 12px;
+    }
 }
